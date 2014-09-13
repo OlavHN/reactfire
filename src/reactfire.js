@@ -4,7 +4,7 @@ var ReactFireMixin = {
   /********************/
   /* Initializes the Firebase binding refs array */
   componentWillMount: function() {
-    this.firebaseRefs = {};
+    this.firebaseRefs = {}
     this.firebaseListeners = {};
   },
 
